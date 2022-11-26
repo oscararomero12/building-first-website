@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Oscar Romero Form</title>
+        <link rel="stylesheet" href="first-website.css">
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="home-page.html">Home</a>
+            <a href="form-page.html">Form</a>
+            <a href="links-page.html">Links</a>
+            <a href="gallery-page.html">Gallery</a>
+        </div>
+            <fieldset class="form-fieldset">
+                <legend class="form-legend">Form</legend>
+
+                <div class="form-firstName">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName">
+                </div>
+
+                <div class="form-lastName">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName">
+                </div>
+
+                <div class="form-birthDate">
+                    <label for="birthDate">Birthdate</label>
+                    <input type="date" id="birthDate">
+                </div>
+
+                <div class="form-foods">
+                    <p>What foods do you like? Choose all that apply:</p>
+                </div>
+            <div class="form-checkboxes">
+                <div class="form-pizza">
+                    <input type="checkbox" id="pizza" name="food">
+                    <label for="pizza">Pizza</label>
+                </div>
+
+                <div class="form-tacos">
+                    <input type="checkbox" id="tacos" name="food">
+                    <label for="tacos">Tacos</label>
+                </div>
+
+                <div class="form-hamburgers">
+                    <input type="checkbox" id="hamburgers" name="food">
+                    <label for="hamburgers">Hamburgers</label>
+                </div>
+            </div>
+
+                <div class="form-comments">
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+
+                <div class="form-submit">
+                    <button type="submit">Submit</button>
+                </div>
+            </fieldset>
+    </body>
+</html>

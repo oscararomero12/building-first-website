@@ -1,0 +1,170 @@
+/* home-page.html */
+
+body {
+    background-color: whitesmoke;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    overflow: hidden;
+    transition-duration: 0.4s;
+}
+
+.topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    color: red;
+}
+
+.home-h1 {
+    text-align: center;
+}
+
+.home-img-audio {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+.home-all-text {
+    width: 50%;
+    margin: auto;
+}
+
+.home-h2{
+    text-align: center;
+}
+
+/* form-page.html */
+
+.form-fieldset {
+    background-color: rgb(190, 232, 246);
+    margin: 1% 15%;
+}
+
+.form-legend {
+    margin-left: 15%;
+}
+
+.form-firstName {
+    display: grid;
+    text-align: center;
+}
+
+#firstName {
+    width: 200px;
+    margin: auto;
+}
+
+.form-lastName {
+    display: grid;
+    text-align: center;
+    margin-top: 1%;
+}
+
+#lastName {
+    width: 200px;
+    margin: auto;
+}
+
+.form-birthDate {
+    display: grid;
+    text-align: center;
+    margin-top: 1%;
+}
+
+#birthDate {
+    width: 200px;
+    margin: auto;
+}
+
+.form-foods {
+    width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+.form-checkboxes {
+    display: grid;
+    width: 200px;
+    margin: auto;
+}
+
+.form-comments {
+    display: grid;
+    text-align: center;
+    margin-top: 1%;
+}
+
+#comments {
+    width: 200px;
+    margin: auto;
+}
+
+.form-submit {
+    display: grid;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+/* links-page.html */
+.links-h1 {
+    text-align: center;
+}
+
+.links-list {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    margin: 0 25%;
+    background-color: rgb(190, 232, 246);
+}
+
+.links-list a {
+    text-decoration: none;
+    color: blue;
+    transition-duration: 0.4s;
+}
+
+.links-list a:hover {
+    color: red;
+}
+
+/* gallery-page.html */
+
+.gallery-h1 {
+    text-align: center;
+}
+
+.all-gallery {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+.gallery {
+    margin: 3%;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+.gallery img:hover {
+    border: 1px solid black;
+}
+
+.desc {
+    text-align: center;
+    margin: 5% 0;
+}
